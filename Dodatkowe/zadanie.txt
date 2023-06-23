@@ -1,0 +1,13 @@
+Zawrzeć wszystkie funkcje itd z Listy nr. 3 jako metody klasy.
+
+Nadać wzorzec klasy z nowo utworzonym typem T.
+
+Dodać metodę add, która pozwoli na użycie np.:
+    f1 = flist<int>();
+    flist.add(5);
+    
+std::cout << f1; //ma printować ładnie sformatowaną całą listę
+
+A gdy np. spróbuje flist<std::string>(); -> ma nie pozwolić lub jakoś poinformować.
+
+Mogę spróbować zrobić konstruktor kopiujący, zachować zasadę wielkiej trójki.
